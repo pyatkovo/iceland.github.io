@@ -13,7 +13,11 @@ $(document).ready(function () {
         $('body').toggleClass('lock');
     })
 
-
+$('.menu__item').click(function (event) {
+        menu.toggleClass('open');
+        burger.toggleClass('open');
+        $('body').toggleClass('lock');
+    })
 
 
     //--------Слайдер для программ----------//
